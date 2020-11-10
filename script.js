@@ -1,0 +1,42 @@
+const quizDat = [
+  {
+    question: 'What is my favorite color?',
+    a: 'Blue',
+    b: 'Green',
+    c: 'Purple',
+    d: 'Yellow',
+    correct: 'b',
+  },
+  {
+    question: 'What is my favorite foods?',
+    a: 'Egg, chicken',
+    b: 'Vegetables',
+    c: 'Steak',
+    d: 'Burger',
+    correct: 'a',
+  },
+  {
+    question: 'What is my favorite series?',
+    a: 'Kardes payi',
+    b: 'Firends',
+    c: 'Aski memnu',
+    d: 'Masumlar apartmani',
+    correct: 'a',
+  },
+  {
+    question: 'What is my favorite room?',
+    a: 'Bedroom',
+    b: 'Bath room',
+    c: 'Living room',
+    d: 'Kitchen',
+    correct: 'b',
+  },
+  {
+    question: 'What is my favorite thing?',
+    a: 'Computer',
+    b: 'Knife',
+    c: 'Chair',
+    d: 'Treadmill',
+    correct: 'a',
+  },
+];
