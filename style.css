@@ -57,3 +57,7 @@ h2 {
   text-align: center;
   margin: 0;
 }
+button:focus {
+  background-color: #732d91;
+  outline: none;
+}

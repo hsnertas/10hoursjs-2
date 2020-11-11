@@ -77,7 +77,8 @@ submitBtn.addEventListener('click', () => {
     } else {
       // TODO show results
 
-      quizEl.innerHTML = `<h2>You answered correctly at ${score}/${quizData.length} questions</h2>`;
+      quizEl.innerHTML = `<h2>You answered correctly at ${score}/${quizData.length} questions</h2>
+      <button onclick="location.reload()">Return to Questions</button>`;
     }
   }
 });
