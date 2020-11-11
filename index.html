@@ -3,41 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Countdown Timer</title>
+    <title>Quiz App</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="quiz-container">
-      <h2>Question text</h2>
+      <div class="quiz-header">
+        <h2 id="question">Question text</h2>
+
+        <ul>
+          <li>
+            <input type="radio" id="a" class="answer" name="answer" /><label
+              id="a_text"
+              for="a"
+              >Question</label
+            >
+          </li>
+          <li>
+            <input type="radio" id="b" class="answer" name="answer" /><label
+              id="b_text"
+              for="b"
+              >Question</label
+            >
+          </li>
+          <li>
+            <input type="radio" id="c" class="answer" name="answer" /><label
+              id="c_text"
+              for="c"
+              >Question</label
+            >
+          </li>
+          <li>
+            <input type="radio" id="d" class="answer" name="answer" /><label
+              id="d_text"
+              for="d"
+              >Question</label
+            >
+          </li>
+        </ul>
+      </div>
+      <button id="submit">Submit</button>
     </div>
-    <ul>
-      <li>
-        <input type="radio" id="b" name="answer" /><label for="b"
-          >Question</label
-        >
-      </li>
-      <li>
-        <input type="radio" id="b" name="answer" />Question<label
-          for="a"
-        ></label>
-      </li>
-      <li>
-        <input type="radio" id="b" name="answer" />Question<label
-          for="a"
-        ></label>
-      </li>
-      <li>
-        <input type="radio" id="b" name="answer" />Question<label
-          for="b"
-        ></label>
-      </li>
-      <li>
-        <input type="radio" id="b" name="answer" />Question<label
-          for="a"
-        ></label>
-      </li>
-    </ul>
-    <button>Submit</button>
     <script src="script.js"></script>
   </body>
 </html>
